@@ -1,0 +1,6 @@
+{
+  "name": "Monster Escape Runner",
+  "description": "เกมวิ่งหนีสัตว์ประหลาด 2D สุดมันส์ สไตล์ Subway Surfers พร้อมระบบ 3 เลน หลบสิ่งกีดขวาง และสะสมคะแนน",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

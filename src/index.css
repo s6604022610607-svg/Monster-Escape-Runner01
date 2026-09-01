@@ -1,0 +1,34 @@
+@import "tailwindcss";
+
+@layer base {
+  body {
+    font-family: 'Kanit', 'Outfit', sans-serif;
+    background-color: #0d1117;
+    color: #ffffff;
+  }
+
+  .font-arcade {
+    font-family: 'Chakra Petch', 'Outfit', sans-serif;
+  }
+}
+
+/* Prevent mobile pull-to-refresh and selection during gameplay */
+canvas {
+  touch-action: none;
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  user-select: none;
+}
+
+@keyframes cyberGlow {
+  0%, 100% {
+    box-shadow: 0 0 25px rgba(233, 69, 96, 0.25), 0 0 50px rgba(76, 201, 240, 0.15);
+  }
+  50% {
+    box-shadow: 0 0 35px rgba(233, 69, 96, 0.4), 0 0 70px rgba(76, 201, 240, 0.25);
+  }
+}
+
+.cyber-card-glow {
+  animation: cyberGlow 4s ease-in-out infinite;
+}
